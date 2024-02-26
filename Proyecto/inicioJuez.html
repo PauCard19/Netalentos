@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <link rel="stylesheet" href="inicioJuez.css">
+    <title>INICIAR SESION</title>
+    </head>
+    <body>
+        <section>
+            <div class="form-box">
+                <div class="form-value">
+                    <!--<form action="menu.html" method="post"> -->
+                        <div class="logo-container">
+                            <img class="logo" src="img/logotipo.jpg">
+                        </div>
+                        <h2>Iniciar sesión</h2>
+                        
+                        <!-- Botón con Imagen que redirige a otro archivo HTML -->
+                        <center>
+                            <div class="btn-group justify-content-center" role="group" aria-label="Basic example">
+                            <a href="iniciarSesion.html" class="btn btn-secondary">
+                                <img src="img/admin.png" alt="Part" class="rounded-circle" style="width: 50px; height: 50px;">           
+                            </a>
+                            <a href="InicioParticipante.html" class="btn btn-secondary">
+                                <img src="img/parti.jpg" alt="Part" class="rounded-circle" style="width: 50px; height: 50px;">
+                            </a>
+                            <!-- Agrega más botones según sea necesario -->
+                            <a href="inicioJuez.html" class="btn btn-secondary">
+                                <img src="img/Juez.png" alt="Part" class="rounded-circle" style="width: 50px; height: 50px;">
+                            </a>
+                        </div>
+                    </center>
+
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="text" name="id_usuario" required>
+                            <label for="">ID Usuario</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" name="contrasena" required>
+                            <label for="">Contraseña</label>
+                        </div>
+                        <div class="forget">
+                            <label for=""><input type="checkbox">Estoy de acuerdo con los <a href="#">términos</a> y <br><a href="#">condiciones</a></label>
+                        
+                        </div>
+                        <a href="menu admin.html">
+                        <button>Aceptar</button>
+                       </a>
+                        <div class="register">
+                            <p>No tengo cuenta <a href="registrarUsuario.html">Registrar</a></p>
+                        </div>
+                    
+                </div>
+                <img class="imagen" src="img/fondo2.jpg" alt="">
+            </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>              
